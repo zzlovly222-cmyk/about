@@ -53,7 +53,15 @@ var mplayer_song = [
 			"src": music163("423015999"),
 			"lrc": "[00:00.00]歌词加载中...",
 			"slrc": "audio/lrc/eyii.lrc"
-		}
+		},
+		{
+    "name": "Departures ～あなたにおくるアイの歌～",
+    "singer": "EGOIST",
+    "img": "",
+    "src": music163("722928"),
+    "lrc": "",
+    "slrc": ""
+}
 	],
 	[
 		{
