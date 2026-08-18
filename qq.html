@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>联系我 - QQ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 50px 40px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+            margin: 0 auto 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 48px;
+            color: #fff;
+            box-shadow: 0 8px 32px rgba(0, 210, 255, 0.3);
+        }
+        h1 {
+            color: #fff;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .qq-number {
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .qq-number .label {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .qq-number .number {
+            color: #fff;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 4px;
+            margin-top: 6px;
+            font-family: "Courier New", monospace;
+        }
+        .qq-number .number span {
+            color: #00d2ff;
+        }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #00d2ff, #3a7bd5);
+            color: #fff;
+            padding: 14px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 24px rgba(0, 210, 255, 0.3);
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(0, 210, 255, 0.5);
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.3);
+            font-size: 13px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .back-link:hover {
+            color: rgba(255, 255, 255, 0.6);
+        }
+        .qr-tip {
+            color: rgba(255, 255, 255, 0.25);
+            font-size: 12px;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">🐧</div>
+        <h1>联系我</h1>
+        <p class="subtitle">欢迎来找我玩～</p>
+        <div class="qq-number">
+            <div class="label">QQ</div>
+            <div class="number"><span>你的QQ号</span></div>
+        </div>
+        <a href="https://wpa.qq.com/msgrd?v=3&uin=你的QQ号&site=qq&menu=yes" target="_blank" class="btn">
+            💬 立即聊天
+        </a>
+        <a href="index.html" class="back-link">← 返回主页</a>
+        <p class="qr-tip">💡 点击上方按钮可直接发起 QQ 会话</p>
+    </div>
+</body>
+</html>
