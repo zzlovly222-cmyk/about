@@ -117,7 +117,7 @@ function getDateDiff(st, en) {
 function show_date_time() {
 	var tm = document.getElementsByName('show_time');
 	for (var i = 0; i < tm.length; i++) {
-		tm[i].innerText = "Sakura & Erii の主页已存活" + getDateDiff(tm[i].title);
+		tm[i].innerText = "Zzlovly の主页已存活" + getDateDiff(tm[i].title);
 	}
 	//window.setTimeout("show_date_time()", 1000);
 }
